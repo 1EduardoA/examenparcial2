@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size: Segoe UI;
+	font-size: 15px;
+	color: #777;
+}
+header{
+	position: relative;
+	background-color: #000;
+	width: 100%;
+	top:0;
+	color:#444444; 
+}
+
+#slides h3{
+align-items: center;
+text-align: left;
+font-family: 'Montserrat', sans-serif;
+font-size: 16px;
+font-style: italic;
+font-weight: 400;
+}
+
+
+#slides h1{
+align-items: center;
+text-align: left;
+font-family: 'Montserrat', sans-serif;
+font-size: 60px;
+font-weight: 400;
+}
+
+.btn-megacare{
+	background: linear-gradient(to right,#7C3FDB,#3370E7);
+	color: #fff;
+	text-transform: uppercase;
+	border-radius: 0;
+	padding: 15px 30px;
+	border: 0;
+	letter-spacing: 1px;
+}
+.btn-megacare:hover{
+background: linear-gradient(to right,#3370E7, #3370E7);
+transition: all 0.50 ease-in-out;
+}
+
+footer{
+	background-color: #121212;
+	padding: 20px 0;
+	color: #fff;
+	font-size: 12px;
+	}
+
+
+info-brands{
+	padding-top:100px;
+	paddign-left: 50px;
+	padding-right: 50px;
+}
+
+.titulo{
+	font-size: 40px;
+	font-weigth:600;
+	margin-bottom: 45px;
+	color:#000;
+}
+
+#Brands img{
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+#what-we-do{
+background-color: #fafafa;
+text-align: center;
+}
+
+.subtitulos{
+	font-size:18px;
+	margin-bottom: 50%;
+	margin: auto;
+	}
+
+#what-we-do h4{
+	font-size: 20px;
+	color: #000;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+
+.circulo{
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+	line-height: 100px;
+	/*border: 1px solid #ddd;*/
+	display: block;
+	margin: auto;
+	margin-bottom: 20px;
+	box-shadow: 0px 0px 5px 0px #ddd;
+	font-size: 40px;
+	color:#2E73E8;
+}
+
+.circulo:hover{
+	box-shadow: 0px 0px 5px 0px #ddd;
+}
+
+.work{
+	position: relative;
+	margin: auto;
+}
+
+.work-bg{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	background-color:#fff;
+	opacity: 0;
+	display: grid;
+	align-content: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.work:hover .work-bg{
+	opacity: 1;
+	transition: all 0.3s ease-in-out;
+}
+
+.work-info h4{
+	color: #000;
+	transform: translateY(20px);
+	transition: all 0.5s ease-in-out;
+}
+
+.work-info p{
+	font-size: 12px;
+	transform: translateY(-20px);
+	transition: all 0.5s ease-in-out;
+}
+
+.work:hover .work-info h4{
+	font-size: 12px;
+	transform:translateY(0px);
+	transition: all 0.5s ease-in-out;
+}
+
+.work:hover .work-info p{
+	font-size: 12px;
+	transform: translateY(0px);
+	transition: all 0.5s ease-in-out;
+}
+
+.work-frame{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	padding:  10px;
+	transition: all 0.5s ease-in-out;
+	opacity: 0;
+}
